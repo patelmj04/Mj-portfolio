@@ -20,10 +20,10 @@ export default function Hero() {
   // Array of gradient combinations
   const gradients = [
     "from-blue-400 via-purple-500 to-blue-600",
-    "from-green-400 via-blue-500 to-purple-600",
-    "from-pink-400 via-purple-500 to-indigo-600",
-    "from-yellow-400 via-orange-500 to-red-600",
-    "from-teal-400 via-cyan-500 to-blue-600",
+    // "from-green-400 via-blue-500 to-purple-600",
+    // "from-pink-400 via-purple-500 to-indigo-600",
+    // "from-yellow-400 via-orange-500 to-red-600",
+    // "from-teal-400 via-cyan-500 to-blue-600",
   ]
 
   useEffect(() => {
