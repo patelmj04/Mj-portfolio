@@ -117,7 +117,7 @@ export default function Contact() {
                   <Github className="h-6 w-6 text-white" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/patelmj04/"
                   className="bg-gray-800 p-3 rounded-full hover:bg-blue-600/20 transition-colors"
                   aria-label="LinkedIn"
                 >
