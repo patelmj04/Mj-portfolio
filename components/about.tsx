@@ -18,7 +18,7 @@ export default function About() {
         <motion.div
           ref={titleRef}
           initial={{ opacity: 0, y: 20 }}
-          animate={titleInView ? { opacity: 1, y: 0 } : {}}
+          animate={titleInView ? { opacity: 1, y: 10 } : {}}
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
           style={{ opacity: titleInView ? 1 : 0 }}
@@ -31,15 +31,15 @@ export default function About() {
           <motion.div
             ref={imageRef}
             initial={{ opacity: 0, x: -50 }}
-            animate={imageInView ? { opacity: 1, x: 0 } : {}}
+            animate={imageInView ? { opacity: 50, x: 10 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="relative"
-            style={{ opacity: imageInView ? 1 : 0 }}
+            style={{ opacity: imageInView ? 0 : 0 }}
           >
             <div className="relative h-[400px] w-full md:h-[500px] rounded-lg overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-purple-600/20 z-10 rounded-lg"></div>
               <Image
-                src="/placeholder.svg?height=500&width=500"
+                src="/mj.png?height=600&width=600"
                 alt="Profile Picture"
                 fill
                 className="object-cover rounded-lg"

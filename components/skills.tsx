@@ -10,11 +10,11 @@ const skillCategories = [
     name: "Frontend",
     icon: <Code className="h-6 w-6 text-blue-400" />,
     skills: [
-      { name: "HTML/CSS", level: 95 },
-      { name: "JavaScript", level: 90 },
-      { name: "React", level: 85 },
-      { name: "Next.js", level: 80 },
-      { name: "TypeScript", level: 75 },
+      { name: "HTML/CSS", level: 65 },
+      { name: "JavaScript", level: 50 },
+      { name: "React", level: 75 },
+      { name: "Next.js", level: 60 },
+      { name: "TypeScript", level: 55 },
     ],
   },
   {
