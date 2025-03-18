@@ -60,12 +60,11 @@ export default function About() {
           >
             <h3 className="text-2xl font-bold">Hi, I'm Mit Patel</h3>
             <p className="text-gray-300 leading-relaxed">
-              I'm a passionate full-stack developer and UI/UX designer with over 5 years of experience creating
-              beautiful, functional, and user-centered digital experiences.
+            By the day I'm a passionate UI/UX designer with over 2 years of experience crafting beautiful, functional, and user-centered digital experiences & by the night, I immerse myself in freelance video editing, enhancing my creative and visualization skills.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              When I'm not coding or designing, you can find me hiking in the mountains, experimenting with photography,
-              or enjoying a good book with a cup of coffee.
+              When I'm not coding or designing, you can find me hiking in the mountains, experimenting with photography/Videography,
+              or enjoying a good sprint with a cup of coffee.
             </p>
 
             <div className="pt-4">
