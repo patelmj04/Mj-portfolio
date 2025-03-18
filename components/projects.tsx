@@ -34,10 +34,10 @@ const projects = [
     id: 3,
     title: "Finance Dashboard",
     description: "An interactive dashboard for tracking personal finances with data visualization and insights.",
-    image: "/cs.webp?height=400&width=600",
+    image: "/cashflow.png?height=400&width=600",
     tags: ["Vue.js", "D3.js", "Express", "PostgreSQL"],
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://cashflow-sigma.vercel.app/",
+    githubUrl: "https://github.com/patelmj04/CashFlow.git",
   },
   {
     id: 4,
