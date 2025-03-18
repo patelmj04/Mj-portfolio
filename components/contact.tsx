@@ -110,7 +110,7 @@ export default function Contact() {
               <h3 className="text-xl font-bold text-white mb-4">Follow Me</h3>
               <div className="flex gap-4">
                 <a
-                  href="#"
+                  href="https://github.com/patelmj04/"
                   className="bg-gray-800 p-3 rounded-full hover:bg-blue-600/20 transition-colors"
                   aria-label="GitHub"
                 >
@@ -124,14 +124,14 @@ export default function Contact() {
                   <Linkedin className="h-6 w-6 text-white" />
                 </a>
                 <a
-                  href="#"
+                  href="https://x.com/patelmj04"
                   className="bg-gray-800 p-3 rounded-full hover:bg-blue-600/20 transition-colors"
                   aria-label="Twitter"
                 >
                   <Twitter className="h-6 w-6 text-white" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/its_mit_btw/"
                   className="bg-gray-800 p-3 rounded-full hover:bg-blue-600/20 transition-colors"
                   aria-label="Instagram"
                 >
