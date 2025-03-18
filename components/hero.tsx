@@ -97,7 +97,7 @@ export default function Hero() {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto"
           >
-            Full-Stack Developer & UI/UX Designer
+            Data Analyst & UI Designer
           </motion.p>
 
           <motion.div
@@ -117,7 +117,7 @@ export default function Hero() {
               className="border-purple-500 text-purple-400 hover:bg-purple-500/10 px-8 py-6 rounded-md text-lg"
               asChild
             >
-              <Link href="#contact">Hire Me</Link>
+              <Link href="#contact">Contact Me</Link>
             </Button>
           </motion.div>
         </motion.div>
