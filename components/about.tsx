@@ -36,16 +36,18 @@ export default function About() {
             className="relative"
             style={{ opacity: imageInView ? 0 : 0 }}
           >
-            <div className="relative h-[400px] w-full md:h-[500px] rounded-lg overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-purple-600/20 z-10 rounded-lg"></div>
+            <div className="relative h-[500px] w-full md:h-[500px] rounded-lg overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-purple-900/20 z-10 rounded-lg"></div>
               <Image
-                src="/mj.png?height=600&width=600"
+                src="/mj.png?height=500&width=500"
                 alt="Profile Picture"
                 fill
                 className="object-cover rounded-lg"
               />
             </div>
-            <div className="absolute -bottom-5 -right-5 h-full w-full border-2 border-purple-500 rounded-lg z-0"></div>
+            <div className="absolute -bottom-0 -right-0 h-full w-full border-2 border-blue-300 rounded-lg z-0"></div>
+            <div className="absolute -bottom-2 -right-2 h-full w-full border-2 border-purple-500 rounded-lg z-0"></div>
+            <div className="absolute -bottom-4 -right-4 h-full w-full border-2 border-blue-400 rounded-lg z-0"></div>
           </motion.div>
 
           <motion.div
