@@ -18,8 +18,19 @@ const skillCategories = [
     ],
   },
   {
+    name: "Design",
+    icon: <Palette className="h-6 w-6 text-purple-400" />,
+    skills: [
+      { name: "Figma", level: 90 },
+      { name: "UI/UX", level: 85 },
+      { name: "Photoshop", level: 80 },
+      { name: "Illustrator", level: 50 },
+      { name: "Adobe XD", level: 25 },
+    ],
+  },
+  {
     name: "Backend",
-    icon: <Server className="h-6 w-6 text-purple-400" />,
+    icon: <Server className="h-6 w-6 text-blue-400" />,
     skills: [
       { name: "Node.js", level: 35 },
       { name: "Express", level: 0 },
@@ -30,24 +41,13 @@ const skillCategories = [
   },
   {
     name: "Database",
-    icon: <Database className="h-6 w-6 text-blue-400" />,
+    icon: <Database className="h-6 w-6 text-purple-400" />,
     skills: [
       { name: "Oracle", level: 60 },
       { name: "MongoDB", level: 0 },
       { name: "MySQL", level: 0 },
       { name: "PostgreSQL", level: 0 },
       { name: "Firebase", level: 0 },
-    ],
-  },
-  {
-    name: "Design",
-    icon: <Palette className="h-6 w-6 text-purple-400" />,
-    skills: [
-      { name: "Figma", level: 90 },
-      { name: "UI/UX", level: 85 },
-      { name: "Photoshop", level: 80 },
-      { name: "Illustrator", level: 50 },
-      { name: "Adobe XD", level: 25 },
     ],
   },
   {

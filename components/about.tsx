@@ -60,23 +60,22 @@ export default function About() {
           >
             <h3 className="text-2xl font-bold">Hi, I'm Mit Patel</h3>
             <p className="text-gray-300 leading-relaxed">
-            By the day I'm a passionate UI/UX designer with over 2 years of experience crafting beautiful, functional, and user-centered digital experiences & by the night, I immerse myself in freelance video editing, enhancing my creative and visualization skills.
+            By the day☀ I'm a passionate UI/UX designer with over 2 years of experience crafting beautiful, functional, and user-centered digital experiences & by the 🌠night, I immerse myself in freelance video editing, enhancing my creative and visualization skills.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              When I'm not coding or designing, you can find me hiking in the mountains, experimenting with photography/Videography,
-              or enjoying a good sprint with a cup of coffee.
+            Beyond coding and design, you'll find me trekking through the mountains🗻, capturing life through my lens📷, or fueling a sprint with a perfectly brewed cup of coffee☕.
             </p>
 
             <div className="pt-4">
               <h4 className="text-xl font-semibold mb-3">Key Highlights</h4>
               <div className="flex flex-wrap gap-2">
                 <Badge className="bg-blue-600/20 text-blue-400 hover:bg-blue-600/30 px-3 py-1">
-                  5+ Years Experience
+                  2+ Years Experience
                 </Badge>
                 <Badge className="bg-purple-600/20 text-purple-400 hover:bg-purple-600/30 px-3 py-1">
-                  50+ Projects Completed
+                  10+ Projects Completed
                 </Badge>
-                <Badge className="bg-blue-600/20 text-blue-400 hover:bg-blue-600/30 px-3 py-1">UI/UX Specialist</Badge>
+                <Badge className="bg-blue-600/20 text-blue-400 hover:bg-blue-600/30 px-3 py-1">UI/UX Enthusiast</Badge>
                 <Badge className="bg-purple-600/20 text-purple-400 hover:bg-purple-600/30 px-3 py-1">Remote Work</Badge>
               </div>
             </div>

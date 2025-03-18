@@ -16,7 +16,7 @@ const projects = [
     title: "E-Commerce Platform",
     description:
       "A full-featured e-commerce platform with payment integration, user authentication, and admin dashboard.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/cs.webp?height=400&width=600",
     tags: ["React", "Node.js", "MongoDB", "Stripe"],
     liveUrl: "#",
     githubUrl: "#",
@@ -25,7 +25,7 @@ const projects = [
     id: 2,
     title: "Task Management App",
     description: "A collaborative task management application with real-time updates and team workspaces.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/cs.webp?height=400&width=600",
     tags: ["Next.js", "Firebase", "Tailwind CSS", "TypeScript"],
     liveUrl: "#",
     githubUrl: "#",
@@ -34,7 +34,7 @@ const projects = [
     id: 3,
     title: "Finance Dashboard",
     description: "An interactive dashboard for tracking personal finances with data visualization and insights.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/cs.webp?height=400&width=600",
     tags: ["Vue.js", "D3.js", "Express", "PostgreSQL"],
     liveUrl: "#",
     githubUrl: "#",
@@ -43,7 +43,7 @@ const projects = [
     id: 4,
     title: "Social Media Platform",
     description: "A social networking platform with features like posts, comments, likes, and user profiles.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/cs.webp?height=400&width=600",
     tags: ["React", "GraphQL", "Apollo", "MongoDB"],
     liveUrl: "#",
     githubUrl: "#",
@@ -52,7 +52,7 @@ const projects = [
     id: 5,
     title: "Weather Application",
     description: "A weather forecast application with location detection and interactive maps.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/cs.webp?height=400&width=600",
     tags: ["JavaScript", "OpenWeather API", "Mapbox", "CSS3"],
     liveUrl: "#",
     githubUrl: "#",
@@ -61,7 +61,7 @@ const projects = [
     id: 6,
     title: "Portfolio Website",
     description: "A responsive portfolio website showcasing projects and skills with a modern design.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/cs.webp?height=400&width=600",
     tags: ["Next.js", "Tailwind CSS", "Framer Motion", "Vercel"],
     liveUrl: "#",
     githubUrl: "#",
@@ -85,7 +85,7 @@ export default function Projects() {
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 20 }}
-          animate={inView ? { opacity: 1, y: -50 } : { opacity: 0, y: 20 }}
+          animate={inView ? { opacity: 1, y: -65 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
