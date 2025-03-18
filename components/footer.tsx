@@ -7,7 +7,7 @@ export default function Footer() {
             <p className="text-gray-400 text-sm">&copy; {new Date().getFullYear()} Mit Patel. All rights reserved.</p>
           </div>
           <div>
-            <p className="text-gray-400 text-sm">Designed and built with ❤️ by Mit Patel</p>
+            <p className="text-gray-400 text-sm">Designed and built by Mit Patel</p>
           </div>
         </div>
       </div>
