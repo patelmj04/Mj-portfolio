@@ -61,10 +61,10 @@ const projects = [
     id: 6,
     title: "Brain Tumor Detection System",
     description: "A collaborative task management application with real-time updates and team workspaces.",
-    image: "/cs.webp?height=400&width=600",
+    image: "/BT.png?height=400&width=600",
     tags: ["Next.js", "Firebase", "Tailwind CSS", "TypeScript"],
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://github.com/patelmj04/BrainTumor_Frontend.git",
+    githubUrl: "https://github.com/patelmj04/BrainTumor_Frontend.git",
   },
 ]
 
