@@ -43,7 +43,7 @@ const projects = [
     title: "Proctor.AI",
     description: "An advanced AI-powered tool designed to monitor student behavior during online proctored exams.",
     image: "/ai.png?height=400&width=600",
-    tags: ["JavaScript", "Computer Vision", "Python", "CSS3"],
+    tags: ["JavaScript", "Computer Vision", "Python", "OpenCV"],
     liveUrl: "https://github.com/patelmj04/Proctor.AI.git",
     githubUrl: "https://github.com/patelmj04/Proctor.AI.git",
   },  
