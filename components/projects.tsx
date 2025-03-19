@@ -42,7 +42,7 @@ const projects = [
   {
     id: 4,
     title: "IG Social Media Clone",
-    description: "A Instagram social networking platform with features like posts, comments, likes, and user profiles.",
+    description: "A IG platform with features user profile and use settings.",
     image: "/cs.webp?height=400&width=600",
     tags: ["React", "GraphQL", "Apollo", "MongoDB"],
     liveUrl: "https://ig-profile.vercel.app/patelmj04",
