@@ -42,11 +42,11 @@ const projects = [
   {
     id: 4,
     title: "Social Media Platform",
-    description: "A social networking platform with features like posts, comments, likes, and user profiles.",
+    description: "A Instagram social networking platform with features like posts, comments, likes, and user profiles.",
     image: "/cs.webp?height=400&width=600",
     tags: ["React", "GraphQL", "Apollo", "MongoDB"],
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://ig-profile.vercel.app/patelmj04",
+    githubUrl: "https://github.com/patelmj04/insta_web_clone.git",
   },
   {
     id: 5,
