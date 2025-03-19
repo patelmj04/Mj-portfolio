@@ -49,17 +49,17 @@ const projects = [
   },  
   {
     id: 5,
-    title: "E-Commerce Platform",
+    title: "VADET Platform",
     description:
-      "A full-featured e-commerce platform with payment integration, user authentication, and admin dashboard.",
-    image: "/cs.webp?height=400&width=600",
+      "An AI-powered system for real-time video monitoring, detecting anomalies, and tracking events.",
+    image: "/vadet.png?height=400&width=600",
     tags: ["React", "Node.js", "MongoDB", "Stripe"],
-    liveUrl: "",
-    githubUrl: "#",
+    liveUrl: "https://vadet.vercel.app/",
+    githubUrl: "https://github.com/patelmj04/video-anomaly-detection.git",
   },
   {
     id: 6,
-    title: "Task Management App",
+    title: "Brain Tumor Detection System",
     description: "A collaborative task management application with real-time updates and team workspaces.",
     image: "/cs.webp?height=400&width=600",
     tags: ["Next.js", "Firebase", "Tailwind CSS", "TypeScript"],
