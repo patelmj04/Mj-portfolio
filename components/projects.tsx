@@ -41,7 +41,7 @@ const projects = [
   },
   {
     id: 4,
-    title: "Social Media Platform",
+    title: "IG Social Media Clone",
     description: "A Instagram social networking platform with features like posts, comments, likes, and user profiles.",
     image: "/cs.webp?height=400&width=600",
     tags: ["React", "GraphQL", "Apollo", "MongoDB"],
