@@ -61,7 +61,7 @@ const projects = [
     id: 6,
     title: "Portfolio Website",
     description: "A responsive portfolio website showcasing projects and skills with a modern design.",
-    image: "/pp.png?height=400&width=600",
+    image: "/PP.png?height=400&width=600",
     tags: ["Next.js", "Tailwind CSS", "Framer Motion", "Vercel"],
     liveUrl: "patelmj.vercel.app",
     githubUrl: "https://github.com/patelmj04/Mj-portfolio.git",
