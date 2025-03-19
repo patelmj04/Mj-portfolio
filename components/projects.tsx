@@ -40,12 +40,12 @@ const projects = [
   },
   {
     id: 4,
-    title: "Weather Application",
-    description: "A weather forecast application with location detection and interactive maps.",
-    image: "/cs.webp?height=400&width=600",
+    title: "Proctor.AI",
+    description: "An advanced AI-powered tool designed to monitor student behavior during online proctored exams.",
+    image: "/ai.png?height=400&width=600",
     tags: ["JavaScript", "OpenWeather API", "Mapbox", "CSS3"],
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://github.com/patelmj04/Proctor.AI.git",
+    githubUrl: "https://github.com/patelmj04/Proctor.AI.git",
   },  
   {
     id: 5,
@@ -54,7 +54,7 @@ const projects = [
       "A full-featured e-commerce platform with payment integration, user authentication, and admin dashboard.",
     image: "/cs.webp?height=400&width=600",
     tags: ["React", "Node.js", "MongoDB", "Stripe"],
-    liveUrl: "#",
+    liveUrl: "",
     githubUrl: "#",
   },
   {
