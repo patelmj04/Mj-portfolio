@@ -63,7 +63,7 @@ const projects = [
     description: "A collaborative task management application with real-time updates and team workspaces.",
     image: "/BT.png?height=400&width=600",
     tags: ["Next.js", "Firebase", "Tailwind CSS", "TypeScript"],
-    liveUrl: "https://github.com/patelmj04/BrainTumor_Frontend.git",
+    liveUrl: "https://btumor.vercel.app/",
     githubUrl: "https://github.com/patelmj04/BrainTumor_Frontend.git",
   },
 ]
