@@ -111,7 +111,7 @@ export default function Hero() {
               className="border-purple-500 text-purple-400 hover:bg-purple-500/10 px-8 py-6 rounded-md text-lg"
               asChild
             >
-              <Link href="#projects">View My Work</Link>
+              <Link href="#projects">My Work</Link>
             </Button>
             <Button
               className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-6 rounded-md text-lg"
