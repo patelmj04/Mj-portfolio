@@ -3,98 +3,100 @@
 import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 import { Code, Database, Globe, Palette, Server, Terminal, Smartphone, Layers } from "lucide-react"
+import { FaHtml5, FaJs, FaReact, FaNodeJs, FaFigma, FaPaintBrush, FaServer, FaPython, FaPhp, FaJava, FaGitAlt, FaLinux, FaAws, FaDocker, FaCogs, FaMobileAlt, FaRocket, FaCheckCircle, FaExchangeAlt, FaUsers, FaFlagUsa, FaLanguage, FaFlag } from 'react-icons/fa';
+import { SiNextdotjs, SiTypescript, SiAdobephotoshop, SiAdobeillustrator, SiAdobexd, SiOracle, SiMongodb, SiMysql, SiPostgresql, SiFirebase, SiFlutter, SiSwift, SiKotlin, SiGraphql, SiAdobepremierepro, SiAdobelightroom, SiFlask } from 'react-icons/si';
 
-// Skill categories with their respective skills
 const skillCategories = [
   {
     name: "Frontend",
-    icon: <Code className="h-6 w-6 text-blue-400" />,
+    // icon: <Code className="h-6 w-6 text-blue-400" />,
     skills: [
-      { name: "HTML/CSS", level: 65 },
-      { name: "JavaScript", level: 50 },
-      { name: "React", level: 75 },
-      { name: "Next.js", level: 60 },
-      { name: "TypeScript", level: 55 },
+      { name: "HTML/CSS", icon: <FaHtml5 className="h-6 w-6 text-orange-400" /> },
+      { name: "JavaScript", icon: <FaJs className="h-6 w-6 text-yellow-400" /> },
+      { name: "React", icon: <FaReact className="h-6 w-6 text-cyan-400" /> },
+      { name: "Next.js", icon: <SiNextdotjs className="h-6 w-6 text-black" /> },
+      { name: "TypeScript", icon: <SiTypescript className="h-6 w-6 text-blue-600" /> },
     ],
   },
   {
     name: "Design",
-    icon: <Palette className="h-6 w-6 text-purple-400" />,
+    // icon: <Palette className="h-6 w-6 text-purple-400" />,
     skills: [
-      { name: "Figma", level: 90 },
-      { name: "UI/UX", level: 85 },
-      { name: "Photoshop", level: 80 },
-      { name: "Illustrator", level: 50 },
-      { name: "Adobe XD", level: 25 },
+      { name: "Figma", icon: <FaFigma className="h-6 w-6 text-pink-400" /> },
+      { name: "UI/UX", icon: <FaPaintBrush className="h-6 w-6 text-purple-400" /> },
+      { name: "Photoshop", icon: <SiAdobephotoshop className="h-6 w-6 text-blue-600" /> },
+      { name: "PremierPro", icon: <SiAdobepremierepro className="h-6 w-6 text-purple-900" /> },
+      { name: "Adobe Lightroom", icon: <SiAdobelightroom className="h-6 w-6 text-blue-300" /> },
     ],
   },
   {
     name: "Backend",
-    icon: <Server className="h-6 w-6 text-blue-400" />,
+    // icon: <Server className="h-6 w-6 text-blue-400" />,
     skills: [
-      { name: "Node.js", level: 35 },
-      { name: "Express", level: 0 },
-      { name: "Python", level: 50 },
-      { name: "PHP", level: 0 },
-      { name: "Java", level: 60 },
+      { name: "Node.js", icon: <FaNodeJs className="h-6 w-6 text-green-400" /> },
+      // { name: "Express", icon: <FaServer className="h-6 w-6 text-gray-400" /> },
+      { name: "Python", icon: <FaPython className="h-6 w-6 text-blue-400" /> },
+      // { name: "PHP", icon: <FaPhp className="h-6 w-6 text-indigo-400" /> },
+      { name: "Java", icon: <FaJava className="h-6 w-6 text-red-400" /> },
     ],
   },
   {
     name: "Database",
-    icon: <Database className="h-6 w-6 text-purple-400" />,
+    // icon: <Database className="h-6 w-6 text-purple-400" />,
     skills: [
-      { name: "Oracle", level: 60 },
-      { name: "MongoDB", level: 0 },
-      { name: "MySQL", level: 0 },
-      { name: "PostgreSQL", level: 0 },
-      { name: "Firebase", level: 0 },
+      { name: "Oracle", icon: <SiOracle className="h-6 w-6 text-red-600" /> },
+      { name: "Flask", icon: <SiFlask className="h-6 w-6 text-green-400" /> },
+      // { name: "MongoDB", icon: <SiMongodb className="h-6 w-6 text-green-400" /> },
+      // { name: "MySQL", icon: <SiMysql className="h-6 w-6 text-blue-400" /> },
+      // { name: "PostgreSQL", icon: <SiPostgresql className="h-6 w-6 text-blue-600" /> },
+      // { name: "Firebase", icon: <SiFirebase className="h-6 w-6 text-yellow-400" /> },
     ],
   },
   {
     name: "DevOps",
-    icon: <Terminal className="h-6 w-6 text-blue-400" />,
+    // icon: <Terminal className="h-6 w-6 text-blue-400" />,
     skills: [
-      { name: "Git", level: 60 },
-      { name: "Linux", level: 50 },
-      { name: "AWS", level: 40 },
-      { name: "Docker", level: 0 },
-      { name: "CI/CD", level: 0 },
+      { name: "Git", icon: <FaGitAlt className="h-6 w-6 text-orange-400" /> },
+      { name: "Linux", icon: <FaLinux className="h-6 w-6 text-black" /> },
+      { name: "AWS", icon: <FaAws className="h-6 w-6 text-orange-400" /> },
+      // { name: "Docker", icon: <FaDocker className="h-6 w-6 text-blue-400" /> },
+      // { name: "CI/CD", icon: <FaCogs className="h-6 w-6 text-gray-400" /> },
     ],
   },
   {
     name: "Mobile",
-    icon: <Smartphone className="h-6 w-6 text-purple-400" />,
+    // icon: <Smartphone className="h-6 w-6 text-purple-400" />,
     skills: [
-      { name: "React Native", level: 50 },
-      { name: "Flutter", level: 20 },
-      { name: "Swift", level: 0 },
-      { name: "Kotlin", level: 0 },
-      { name: "Responsive Design", level: 0 },
+      { name: "React Native", icon: <FaReact className="h-6 w-6 text-cyan-400" /> },
+      // { name: "Flutter", icon: <SiFlutter className="h-6 w-6 text-blue-400" /> },
+      // { name: "Swift", icon: <SiSwift className="h-6 w-6 text-orange-400" /> },
+      // { name: "Kotlin", icon: <SiKotlin className="h-6 w-6 text-purple-400" /> },
+      { name: "Responsive Design", icon: <FaMobileAlt className="h-6 w-6 text-purple-400" /> },
     ],
   },
   {
     name: "Other",
-    icon: <Layers className="h-6 w-6 text-blue-400" />,
+    // icon: <Layers className="h-6 w-6 text-blue-400" />,
     skills: [
-      { name: "Performance Optimization", level: 60 },
-      { name: "Testing", level: 60 },
-      { name: "GraphQL", level: 0 },
-      { name: "REST API", level: 0 },
-      { name: "Agile/Scrum", level: 0 },
+      { name: "Performance Optimization", icon: <FaRocket className="h-6 w-6 text-blue-400" /> },
+      { name: "Testing", icon: <FaCheckCircle className="h-6 w-6 text-green-400" /> },
+      // { name: "GraphQL", icon: <SiGraphql className="h-6 w-6 text-pink-400" /> },
+      // { name: "REST API", icon: <FaExchangeAlt className="h-6 w-6 text-blue-400" /> },
+      { name: "Agile/Scrum", icon: <FaUsers className="h-6 w-6 text-purple-400" /> },
     ],
   },
   {
     name: "Languages",
-    icon: <Globe className="h-6 w-6 text-purple-400" />,
+    // icon: <Globe className="h-6 w-6 text-purple-400" />,
     skills: [
-      { name: "English", level: 90 },
-      { name: "Hindi", level: 80 },
-      { name: "Gujarati", level: 80 },
-      { name: "Sanskrit", level: 60 },
-      { name: "Germany", level: 10 },
+      { name: "English", icon: <FaFlagUsa className="h-6 w-6 text-blue-400" /> },
+      { name: "Hindi", icon: <FaLanguage className="h-6 w-6 text-orange-400" /> },
+      { name: "Gujarati", icon: <FaLanguage className="h-6 w-6 text-green-400" /> },
+      { name: "Sanskrit", icon: <FaLanguage className="h-6 w-6 text-brown-400" /> },
+      // { name: "German", icon: <FaFlag className="h-6 w-6 text-black" /> }, // Corrected "Germany" to "German"
     ],
   },
-]
+];
 
 export default function Skills() {
   const [ref, inView] = useInView({
@@ -139,24 +141,10 @@ export default function Skills() {
               </div>
 
               <div className="space-y-4">
-                {category.skills.map((skill, skillIndex) => (
-                  <div key={skill.name} className="space-y-2">
-                    <div className="flex justify-between text-sm">
-                      <span className="text-gray-300">{skill.name}</span>
-                      <span className="text-gray-400">{skill.level}%</span>
-                    </div>
-                    <div className="h-2 w-full bg-gray-700 rounded-full overflow-hidden">
-                      <motion.div
-                        initial={{ width: 0 }}
-                        animate={inView ? { width: `${skill.level}%` } : { width: 0 }}
-                        transition={{ duration: 1, delay: categoryIndex * 0.1 + skillIndex * 0.1 }}
-                        className={`h-full rounded-full ${
-                          categoryIndex % 2 === 0
-                            ? "bg-gradient-to-r from-blue-600 to-blue-400"
-                            : "bg-gradient-to-r from-purple-600 to-purple-400"
-                        }`}
-                      ></motion.div>
-                    </div>
+                {category.skills.map((skill) => (
+                  <div key={skill.name} className="flex items-center gap-2">
+                    {skill.icon}
+                    <span className="text-gray-300">{skill.name}</span>
                   </div>
                 ))}
               </div>
@@ -167,4 +155,3 @@ export default function Skills() {
     </section>
   )
 }
-
