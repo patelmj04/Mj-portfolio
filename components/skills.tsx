@@ -85,7 +85,7 @@ const Marquee = ({ children, speed = 50 }: MarqueeProps) => {
       <div className="overflow-hidden whitespace-nowrap w-full">
         <motion.div
           animate={{
-            x: ["0%", "-50%"], // Start from right edge of screen to left edge
+            x: ["10%", "-50%"], // Start from right edge of screen to left edge
           }}
           transition={{
             x: {
