@@ -66,6 +66,62 @@ const projects = [
     liveUrl: "https://btumor.vercel.app/",
     githubUrl: "https://github.com/patelmj04/BrainTumor_Frontend.git",
   },
+  {
+    id: 7,
+    title: "Comming Soon",
+    // description: "An advanced AI-powered tool designed to monitor student behavior during online proctored exams.",
+    image: "/cs.webp?height=400&width=600",
+    tags: ["JavaScript", "Computer Vision", "Python", "OpenCV"],
+    liveUrl: "https://github.com/patelmj04/",
+    githubUrl: "https://github.com/patelmj04/",
+  },  
+  {
+    id: 8,
+    title: "Comming Soon",
+     // description:
+      // "An AI-powered system for real-time video monitoring, detecting anomalies, and tracking events.",
+    image: "/cs.webp?height=400&width=600",
+    tags: ["React", "Next.JS", "Resnet50", "ConvLSTM", "Python3"],
+    liveUrl: "https://vercel.app/",
+    githubUrl: "https://github.com/",
+  },
+  {
+    id: 9,
+    title: "Comming Soon",
+    // description: "A collaborative task management application with real-time updates and team workspaces.",
+    image: "/cs.webp?height=400&width=600",
+    tags: ["Next.js", "Firebase", "Tailwind CSS", "TypeScript"],
+    liveUrl: "https://vercel.app/",
+    githubUrl: "https://github.com/",
+  },
+  {
+    id: 10,
+    title: "Comming Soon",
+    // description: "An advanced AI-powered tool designed to monitor student behavior during online proctored exams.",
+    image: "/cs.webp?height=400&width=600",
+    tags: ["JavaScript", "Computer Vision", "Python", "OpenCV"],
+    liveUrl: "https://github.com/patelmj04/",
+    githubUrl: "https://github.com/patelmj04/",
+  },  
+  {
+    id: 11,
+    title: "Comming Soon",
+     // description:
+      // "An AI-powered system for real-time video monitoring, detecting anomalies, and tracking events.",
+    image: "/cs.webp?height=400&width=600",
+    tags: ["React", "Next.JS", "Resnet50", "ConvLSTM", "Python3"],
+    liveUrl: "https://vercel.app/",
+    githubUrl: "https://github.com/",
+  },
+  {
+    id: 12,
+    title: "Comming Soon",
+    // description: "A collaborative task management application with real-time updates and team workspaces.",
+    image: "/cs.webp?height=400&width=600",
+    tags: ["Next.js", "Firebase", "Tailwind CSS", "TypeScript"],
+    liveUrl: "https://vercel.app/",
+    githubUrl: "https://github.com/",
+  },
 ]
 
 export default function Projects() {
