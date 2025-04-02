@@ -81,7 +81,7 @@ const projects = [
      description:" Interior design website showcasing various designs and styles.",
     image: "/rc.png?height=400&width=600",
     tags: ["React",],
-    liveUrl: "https://vercel.app/",
+    liveUrl: "https://rc-interiors.vercel.app/",
     githubUrl: "https://github.com/",
   },
   {
