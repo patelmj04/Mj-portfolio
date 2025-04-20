@@ -97,7 +97,7 @@ export default function Hero() {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto"
           >
-            AI/ML Enthusiast & Creative UI/UX Designer
+            AI/ML/DL Enthusiast & Creative UI/UX Designer
           </motion.p>
 
           <motion.div
