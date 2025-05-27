@@ -16,7 +16,6 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favcon.png" />
         <meta property="og:image" content="/preview-image.jpg" />
-        <meta name="google-adsense-account" content="ca-pub-6208542351236103">
       </head>
       <body>
         {children}
