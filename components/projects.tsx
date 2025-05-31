@@ -112,13 +112,12 @@ const projects = [
   },  
   {
     id: 11,
-    title: "Comming Soon",
-     // description:
-      // "An AI-powered system for real-time video monitoring, detecting anomalies, and tracking events.",
-    image: "/cs.webp?height=400&width=600",
-    tags: ["Resnet50"],
-    liveUrl: "https://vercel.app/",
-    githubUrl: "https://github.com/",
+    title: "Monita Patel & Associates ",
+    description:"An dynamic website designed to showcase Monita Patel's extraordinary work in the field of Interior Designing.",
+    image: "/mp.png?height=400&width=600",
+    tags: ["React","UI","Next","JS","CSS"],
+    liveUrl: "https://monitapatel.vercel.app/",
+    githubUrl: "https://github.com/patelmj04/monita-patel-and-associates.git",
   },
   {
     id: 12,
