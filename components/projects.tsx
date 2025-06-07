@@ -18,7 +18,7 @@ const projects = [
     image: "/PP.png?height=400&width=600",
     tags: ["Next.js", "Tailwind CSS", "Framer Motion", "Vercel"],
     liveUrl: "patelmj.vercel.app",
-    githubUrl: "https://github.com/patelmj04/Mj-portfolio.git",
+    githubUrl: "https://github.com/patelmj04/",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const projects = [
     image: "/wc.png?height=400&width=600",
     tags: ["Next.js", "vercel", "Tailwind CSS", "TypeScript", "HTML"],
     liveUrl: "https://wecreate-inky.vercel.app/",
-    githubUrl: "https://github.com/patelmj04/WC-2",
+    githubUrl: "https://github.com/patelmj04/",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const projects = [
     image: "/ai.png?height=400&width=600",
     tags: ["JavaScript", "Computer Vision", "Python", "OpenCV"],
     liveUrl: "https://github.com/patelmj04/Proctor.AI.git",
-    githubUrl: "https://github.com/patelmj04/Proctor.AI.git",
+    githubUrl: "https://github.com/patelmj04/",
   },  
   {
     id: 4,
@@ -46,7 +46,7 @@ const projects = [
     image: "/vadet.png?height=400&width=600",
     tags: ["React", "Next.JS", "Resnet50", "ConvLSTM", "Python3"],
     liveUrl: "https://vadet.vercel.app/",
-    githubUrl: "https://github.com/patelmj04/video-anomaly-detection.git",
+    githubUrl: "https://github.com/patelmj04/",
 
     },
   {
@@ -56,7 +56,7 @@ const projects = [
     image: "/BT.png?height=400&width=600",
     tags: ["Next.js", "Firebase", "Tailwind CSS", "TypeScript"],
     liveUrl: "https://btumor.vercel.app/",
-    githubUrl: "https://github.com/patelmj04/BrainTumor_Frontend.git",
+    githubUrl: "https://github.com/patelmj04/",
   },
   {
     id: 6,
@@ -72,7 +72,7 @@ const projects = [
     image: "/sync.png?height=400&width=600",
     tags: ["DL", "Machine Learning", "ReactJS", "Vercel"],
     liveUrl: "https://sonicsync.vercel.app/",
-    githubUrl: "https://github.com/patelmj04/sonicsync.git",
+    githubUrl: "https://github.com/patelmj04/",
   },
   {
     id: 7,
@@ -90,7 +90,7 @@ const projects = [
     image: "/rc.png?height=400&width=600",
     tags: ["React",],
     liveUrl: "https://rc-interiors.vercel.app/",
-    githubUrl: "https://github.com/",
+    githubUrl: "https://github.com/patelmj04",
   },
   {
     id: 9,
@@ -99,7 +99,7 @@ const projects = [
     image: "/ig.png?height=400&width=600",
     tags: ["React", "Vercel", "HTML" , "CSS"],
     liveUrl: "https://ig-profile.vercel.app/patelmj04",
-    githubUrl: "https://github.com/patelmj04/insta_web_clone.git",
+    githubUrl: "https://github.com/patelmj04/",
   },
   {
     id: 10,
@@ -108,7 +108,7 @@ const projects = [
     image: "/222.png?height=400&width=600",
     tags: ["React", "Vercel", "HTML" , "CSS"],
     liveUrl: "https://222backyard.vercel.app",
-    githubUrl: "https://github.com/patelmj04/222_Backyard",
+    githubUrl: "https://github.com/patelmj04/",
   },  
   {
     id: 11,
@@ -117,17 +117,48 @@ const projects = [
     image: "/mp.png?height=400&width=600",
     tags: ["React","UI","Next","JS","CSS"],
     liveUrl: "https://monitapatel.vercel.app/",
-    githubUrl: "https://github.com/patelmj04/monita-patel-and-associates.git",
+    githubUrl: "https://github.com/patelmj04",
   },
   {
     id: 12,
+    title: "Rich Bliss",
+    description: "Rich Bliss Auto, founded in 2021 by Anmol Kothari, is Nagpur's premier dealership for new and pre-owned luxury cars and superbikes, and Central India's first exclusive showroom of its kind.",
+    image: "/rb.png?height=400&width=600",
+    tags: ["Tailwind CSS","HTML","CSS","React","Creative Thinking"],
+    liveUrl: "https://richbliss.vercel.app/",
+    githubUrl: "https://github.com/patelmj04",
+  },
+  
+  {
+    id: 13,
     title: "Comming Soon",
     // description: "A collaborative task management application with real-time updates and team workspaces.",
     image: "/cs.webp?height=400&width=600",
-    tags: ["Tailwind CSS"],
+    tags: ["Still Working on it"],
     liveUrl: "https://vercel.app/",
-    githubUrl: "https://github.com/",
+    githubUrl: "https://github.com/patelmj04",
   },
+  
+  {
+    id: 14,
+    title: "Comming Soon",
+    // description: "A collaborative task management application with real-time updates and team workspaces.",
+    image: "/cs.webp?height=400&width=600",
+    tags: ["Still Working on it"],
+    liveUrl: "https://vercel.app/",
+    githubUrl: "https://github.com/patelmj04",
+  },
+  
+  {
+    id: 15,
+    title: "Comming Soon",
+    // description: "A collaborative task management application with real-time updates and team workspaces.",
+    image: "/cs.webp?height=400&width=600",
+    tags: ["Still Working on it"],
+    liveUrl: "https://vercel.app/",
+    githubUrl: "https://github.com/patelmj04",
+  },
+  
 ]
 
 export default function Projects() {
