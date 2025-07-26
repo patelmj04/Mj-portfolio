@@ -36,14 +36,13 @@ export default function About() {
             className="relative"
             style={{ opacity: imageInView ? 0 : 0 }}
           >
-            <div className="relative h-[500px] w-full md:h-[500px] rounded-lg overflow-hidden">
+            <div className="relative h-[500px] w-full md:h-[500px] rounded-lg overflow-hidden group">
               <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-purple-900/20 z-10 rounded-lg"></div>
               <Image
-                // src="/Mj.webp?height=500&width=500"
-                src="/Mjj.png?height=500&width=500"
-                                alt="Profile Picture"
-                fill
-                className="object-cover rounded-lg"
+              src="/Mjj.png?height=500&width=500"
+              alt="Profile Picture"
+              fill
+              className="object-cover rounded-lg transition-transform duration-300 group-hover:scale-105"
               />
             </div>
             <div className="absolute -bottom-0 -right-0 h-full w-full border-2 border-blue-300 rounded-lg z-0"></div>

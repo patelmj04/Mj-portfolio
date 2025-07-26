@@ -69,7 +69,7 @@ export default function Hero() {
   return (
     <section className="relative h-screen flex flex-col items-center justify-center overflow-hidden">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-purple-900/20 via-black to-black z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-purple-900/10 via-purple-700/30 to-black z-0"></div>
 
       {/* Animated grid lines */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:40px_40px] z-0"></div>
@@ -95,7 +95,7 @@ export default function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.8 }}
-            className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto"
+            className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto"
           >
             AI/ML/DL Enthusiast & Creative UI/UX Designer
           </motion.p>

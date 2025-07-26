@@ -26,7 +26,7 @@ const projects = [
     description: "WeCreate website which showcase my professional work.",
     image: "/wc.png?height=400&width=600",
     tags: ["Next.js", "vercel", "Tailwind CSS", "TypeScript", "HTML"],
-    liveUrl: "https://wecreate-inky.vercel.app/",
+    liveUrl: "https://wecreated.studio/",
     githubUrl: "https://github.com/patelmj04/",
   },
   {
