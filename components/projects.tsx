@@ -131,21 +131,21 @@ const projects = [
   
   {
     id: 13,
-    title: "Comming Soon",
+    title: "WeCreate.dev",
     // description: "A collaborative task management application with real-time updates and team workspaces.",
-    image: "/cs.webp?height=400&width=600",
+    image: "/dev.webp?height=400&width=600",
     tags: ["Still Working on it"],
-    liveUrl: "https://vercel.app/",
+    liveUrl: "https://wecreate.dev/",
     githubUrl: "https://github.com/patelmj04",
   },
   
   {
     id: 14,
-    title: "Comming Soon",
+    title: "Corruptly",
     // description: "A collaborative task management application with real-time updates and team workspaces.",
-    image: "/cs.webp?height=400&width=600",
-    tags: ["Still Working on it"],
-    liveUrl: "https://vercel.app/",
+    image: "/fc.webp?height=400&width=600",
+    tags: ["Comming Soon"],
+    liveUrl: "https://corruptly.vercel.app/",
     githubUrl: "https://github.com/patelmj04",
   },
   
