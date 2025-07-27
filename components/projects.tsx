@@ -17,7 +17,7 @@ const projects = [
     description: "A responsive portfolio website showcasing projects and skills with a modern design.",
     image: "/PP.png?height=400&width=600",
     tags: ["Next.js", "Tailwind CSS", "Framer Motion", "Vercel"],
-    liveUrl: "patelmj.vercel.app",
+    liveUrl: "https://patelmj.tech/",
     githubUrl: "https://github.com/patelmj04/",
   },
   {
